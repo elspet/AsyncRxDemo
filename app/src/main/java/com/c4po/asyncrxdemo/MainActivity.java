@@ -248,6 +248,9 @@ public class MainActivity extends AppCompatActivity {
         }
 
         interface OnTimesUpListener{
+            /**
+             * 计时时间到
+             */
             void onTimesUp();
         }
     }
